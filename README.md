@@ -6,7 +6,8 @@ Nicht enthalten ist die mechanische Konstruktion eines Roboters. Hierzu können 
 
 Die Hardware ist dokumentiert unter: https://github.com/db-robotix/Modules <br>
 Zugehörige Arduino-Bibliotheken findest du unter: https://github.com/db-robotix/Master-Controller <br>
-Beachte auch die PDF Dokumentationen in diesem Ordner.
+Beachte auch die PDF Dokumentationen in diesem Ordner. <br>
+Zusätzliche Informationen im Bereich der Physik gibt es im Ordner: https://github.com/db-robotix/Lectures 
 
 Ich freue mich über jedes Feedback: db-robotix@web.de
 
