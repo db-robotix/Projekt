@@ -5,7 +5,7 @@ Frage: Wozu braucht die Motorsteuerung einen eigenen Prozessor?
 Antwort: Man könnte die Schrittmotortreiber auch direkt vom Arduino ansteuern, dann gingen aber schnell dessen Digitalanschlüsse aus. Mit einem zusätzlichen Prozessor ESP32-S3 ist eine I2C-Bus-Anbindung möglich, die sowieso vorhanden ist. Der ESP32 setzt einfach die Befehle von I2C in Schrittmotor-Signale um. Da der ESP32-S3 zwei Kerne besitzt, kann die Motorsteuerung unabhängig erfolgen, d.h. der Arduino kann weiter arbeiten und I2C-Befehle senden, während die Motoren laufen.
 
 Frage: Warum ist kein Gyro-Sensor bei db-robotix enthalten?  
-Antwort: Gyroskope sind für die Winkelbestimmung zu ungenau und arbeiten unzuverlässig. Details findest du unter: https://github.com/db-robotix/Unterricht/blob/main/Gyrosensorik.pdf  
+Antwort: Gyroskope sind für die Winkelbestimmung zu ungenau und arbeiten unzuverlässig. Details findest du unter: https://github.com/db-robotix/Lessons/blob/main/Gyrosensorik.pdf  
 
 Frage: In den Software-Bibliotheken finde ich kein Programm zur Linienverfolgung. Warum?  
 Antwort: In den Libraries anadigMaster und i2cMaster sind nur elementare Funktionen für die Komponenten enthalten, denn du sollst dich selber mit der Roboter-Programmierung für Wettbewerbe beschäftigen und dadurch lernen. Wenn du noch keine Idee hast, kannst du in https://github.com/db-robotix/Projekt/blob/main/ProgrammierAnleitung.pdf lernen, was hinter einer Linienverfolgung steckt.
@@ -24,3 +24,4 @@ Antwort: Auf der Webseite https://www.worldrobotolympiad.de findest du alle Info
 
 Frage: Muss ich die Unterlagen in https://github.com/db-robotix/Lessons lernen und verstehen?  
 Antwort: Nein. Den Roboter-Bau und die Programmierung kannst du auch so bewerkstelligen. Denn diese Unterlagen gehen recht tief in die Physik. Wenn du jedoch an dem Bezug zwischen Robotik und Physik stark interessiert bist, lohnt es sich, mal hinein zu schauen.
+
